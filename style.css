@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+}
+.main-menu {
+    background: rgb(255, 255, 255);
+}
+.main {
+    display: flex;
+    align-items: center;
+    margin-left: 25vh;
+    margin-right: 25vh;
+}
+.logo {
+    margin: 5px;
+    margin-left: 5vh;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 20px rgb(248, 204, 10);
+    font-size: 35px;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.poisk {
+    display: flex;
+    margin-left: 20px;
+}
+.search {
+    padding-left: 5px;
+    height: 30px;
+    width: 30vh;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    background: whitesmoke;
+}
+.input {
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+}
+.push-push:hover {
+    background: cyan;
+    border-radius: 10px;
+    padding: 5px 5px 5px;
+    transition: 0.5s ease;
+}
+.push-music:hover {
+    background: cyan;
+    border-radius: 10px;
+    padding: 5px 5px 5px;
+    transition: 0.5s ease;
+}
+.push {
+    margin-left: 50px;
+    margin-top: 2px;
+}
+.push-music {
+    margin-left: 9px;
+    height: 23px;
+    width: 23px;
+    margin-bottom: 2px;
+}
+.center {
+    display: flex;
+    justify-content: space-between;
+}
+.push-push {
+    height: 25px;
+    width: 25px;
+}
+.right {
+    margin-left: 54vh;
+} 
+.right a{
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ava {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+    border: 1px solid rgb(140, 0, 255);
+}
+
+.right:hover {
+    background: rgba(211, 211, 211, 0.664);
+    transition: 0.5s ease;
+    padding: 5px 5px 5px;
+    border-radius: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    margin-top: 20px;
+}
+.menu {
+    display: block;
+}
+.icons {
+    width: 17px;
+    height: 17px;
+    padding-right: 10px;
+    
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.account {
+    padding-top: 10px;
+}
+.news {
+    padding-top: 8px;
+}
+.chat {
+    padding-top: 8px;
+}
+.friends {
+    padding-top: 8px;
+}
+.group {
+    padding-top: 8px;
+}
+.photo {
+    padding-top: 8px;
+}
+.music {
+    padding-top: 8px;
+}
+.video {
+    padding-top: 8px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #979797;
+}
+.menu a:hover {
+    padding: 10px 10px 10px;
+    transition: 0.6s ease;
+    border-radius: 10px;
+    background: rgba(211, 211, 211, 0.664);
+}
+.content {
+    display: block;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.public {
+    display: flex;
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+    padding: 0px 10px 10px;
+}
+.text-public {
+    width: 70vh;
+    height: 60px;
+    font-size: 21px;
+    color: #979797;
+    border: 1px solid white;    
+}
+button {
+    margin-top: 70px;
+    margin-right: 5px;
+    float: right;
+    background: rgba(0, 0, 0, 0.705);
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.705);
+}
+.btn {
+    color: white;
+    font-size: 13px;
+    padding: 5px 7px 5px;
+}
+.btn:hover {
+    color: rgb(255, 255, 255);
+    background: black;
+    transition: 0.4s ease;
+}
+.stories {
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.gl-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.img-st {
+    background: rgba(211, 211, 211, 0.664);
+    border-radius: 15px;
+    width: 70px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.img-st:hover {
+    background: rgba(56, 52, 52, 0.664);
+    transition: 0.5s ease;
+}
